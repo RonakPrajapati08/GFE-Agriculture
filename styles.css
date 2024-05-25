@@ -1,0 +1,19 @@
+.b-g {
+    margin-top: 100px;
+    padding: 100px 0;
+    background-image: url(./img/testimonial.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% !important;
+}
+
+.t-justy {
+    text-align: justify !important;
+}
+
+.liti {
+
+    box-shadow: 2px 5px 5px rgba(36, 35, 35, 0.753) !important;
+
+}

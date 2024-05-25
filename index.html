@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link rel="stylesheet"
+        href="https://unpkg.com/bs-brain@2.0.3/components/contacts/contact-5/assets/css/contact-5.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet" />
+    <!-- slick cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- nav -->
+    <div class="container-fluid d-none d-xl-block">
+        <div class="flex flex-col items-center bg-white ">
+            <div class="px-5 w-full  max-md:max-w-full ">
+                <div class="flex gap-3 max-md:flex-col max-md:gap-0 justify-content-between">
+                    <div class="flex flex-col  max-md:ml-0 max-md:w-full">
+                        <img class="grow shrink-0 w-60 max-w-full aspect-[2.08] max-md:mt-6" src="image/Header.jpg"
+                            alt="">
+                    </div>
+                    <div class="flex flex-col ml-5  max-md:ml-0 max-md:w-full">
+                        <div class="flex gap-4 justify-between items-center self-stretch my-auto max-md:mt-10">
+
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/65b0e72fb5c326c908642329b5ce5f0587a2f194e2bb257edc8834d31b83b9de?apiKey=aae84e05eaa8498a897092b900502b13&"
+                                class="shrink-0 self-stretch my-auto aspect-square w-[30px]" alt="" />
+                            <div class="flex flex-col flex-1 self-stretch my-auto">
+                                <div class="mt-1 text-sm font-bold leading-5 whitespace-nowrap text-stone-900">
+                                    + 98 (000) - 9630
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col ml-5  max-md:ml-0 max-md:w-full">
+                        <div class="flex gap-4 justify-between items-center self-stretch my-auto max-md:mt-10">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/c1ec4aa8b17d2f8f5d41608371bcc103e06d0d2003417fcf244d9a059392c9f9?apiKey=aae84e05eaa8498a897092b900502b13&"
+                                class="shrink-0 aspect-square w-[30px]" alt="" />
+                            <div class="flex flex-col flex-1">
+                                <div class="mt-2.5 text-sm font-bold leading-5 text-stone-900">
+                                    ambed@agrios.com
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col ml-5  max-md:ml-0 max-md:w-full">
+                        <div class="flex gap-4 self-stretch my-auto max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
+
+                            <a href="#"><i
+                                    class="fa-brands fa-twitter fs-5 bg-light-subtle twi-color shep-1  rounded-circle"></i></a>
+                            <a href="#"><i
+                                    class="fa-brands fa-facebook-f fs-5 bg-light-subtle face-color shep-2 rounded-circle"></i></a>
+                            <a href="#"><i
+                                    class="fa-brands fa-instagram fs-5 bg-light-subtle insta-color shep-3 rounded-circle"></i></a>
+                            <a href="#"><i
+                                    class="fa-brands fa-youtube fs-5 bg-light-subtle Youtube-color shep-4 rounded-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NAV end -->
+    <!-- Header start -->
+    <nav class="navbar navbar-expand-lg bg-light py-3">
+        <div class="container-fluid">
+            <span class="logo "><img class="d-sm-block d-xl-none" src="image/Logo.webp" alt=""></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars fs-1 text-dark"></i></span>
+            </button>
+            <div class="navbar-collapse flex collapse flex-grow-0 xl:mx-auto justify-contain-center  sm:mx-0 sm:text-center"
+                id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 text-center mx-auto">
+                    <li class="nav-item mar-right ">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mar-right">
+                        <a class="nav-link active" href="./About-us/about.html">About Us</a>
+                    </li>
+                    <li class="dropdown">
+                        <a data-mdb-dropdown-init class="nav-link active dropdown-toggle" href="#"
+                            id="navbarDropdownMenuLink" role="button" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li>
+                                <a class="dropdown-item" href="./Products/Products.html">All Products</a>
+                            </li>
+                            <!-- <li>
+                            <a class="dropdown-item" href="#">
+                              Categaries &raquo;
+                            </a>
+                            <ul class="dropdown-menu dropdown-submenu">
+                              <li>
+                                <a class="dropdown-item" href="./Products/Fruits.html">Fruits</a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="./Products/Vegitables.html">Vegitables</a>
+                              </li>
+                            </ul>
+                          </li> -->
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a data-mdb-dropdown-init class="nav-link active dropdown-toggle mar-right" href="#"
+                            id="navbarDropdownMenuLink" role="button" aria-expanded="false">
+                            Gallary
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li>
+                                <a class="dropdown-item" href="Gallary.html">Images Gallery</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./Gallary/video.html">Video Gallery</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mar-right">
+                        <a class="nav-link active" href="./contact.html" tabindex="-1" aria-disabled="true">Contact
+                            us</a>
+                    </li>
+
+                    <li class="nav-item pad-left">
+                        <button type="button" class="btn p-2 py-2 m-left bg-success text-white letter" id="myBtn"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Enquiry
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header end -->
+
+
+    <!-- ----------------Enquairy form----------------- -->
+
+
+    <div class="modal fade overflow-y-hidden" id="exampleModal" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fs-2 font-bold honey" id="exampleModalLabel">Enquiry Form</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="#!">
+                        <div class="row gy-4 gy-xl-5 p-2">
+                            <div class="col-12">
+                                <label for="fullname" class="form-label">Full Name <span
+                                        class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="fullname" name="fullname" value="" required>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                        </svg>
+                                    </span>
+                                    <input type="email" class="form-control" id="email" name="email" value="" required>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                            <path
+                                                d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                        </svg>
+                                    </span>
+                                    <input type="tel" class="form-control" id="phone" name="phone" value="">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label for="subject" class="form-label">Subject <span
+                                        class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="subject" name="subject" value="" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label">Message <span
+                                        class="text-danger">*</span></label>
+                                <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-grid">
+                                    <button
+                                        class="btn bg-success btn-success focus:outline-none hover:bg-indigo-600 btn-lg"
+                                        data-mdb-ripple-init type="button" type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- sec1 start -->
+
+    <section>
+        <div class="container-fluid ">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="image/slider.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none t-shedo d-md-block">
+                            <h5 class="fs-1">First slide label</h5>
+                            <p class="fs-4">Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="image/slider.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none t-shedo d-md-block">
+                            <h5 class="fs-1">Second slide label</h5>
+                            <p class="fs-4">Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="image/slider.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none t-shedo d-md-block">
+                            <h5 class="fs-1">Third slide label</h5>
+                            <p class="fs-4">Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid ">
+            <div class="flex flex-col my-12">
+                <h2 class="mb-3 text-5xl font-bold text-center g-co1 max-md:text-3xl">Feature</h2>
+                <div class="h-1 w-20 g-co-ex rounded m-auto"></div>
+            </div>
+            <div class=" flex flex-row xl:px-12 my-5 flex-row">
+                <div class=" row d-flex max-md:flex-col max-md:gap-0 jse  mx-auto lg:align-items-center">
+                    <!-- -------BOX1------- -->
+                    <div class="col-md-4 flex flex-col max-md:ml-0 ">
+                        <div
+                            class="flex flex-col grow p-8 justify-center items-center py-2 w-full text-center bg-white rounded-xl shadow-2xl max-md:mt-8 liti-ex">
+                            <div class="text-base font-bold leading-6 text-amber-300 whitespace-nowrap">
+                                FINEST QUALITY
+                            </div>
+                            <p
+                                class="self-stretch mt-2 text-sm font-medium leading-6 text-neutral-500 fs-6 text-justify">
+                                We are committed to supply hygiene quality with fresh
+                                product to our customer. We supply customized quality, size,
+                                packing and grading as per.
+                            </p>
+                            <img loading="lazy"
+                                srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/df9b7f4c274afba5f088d9a59f34c6e99e358244bee4b3df56332f197effdf07?apiKey=aae84e05eaa8498a897092b900502b13&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/df9b7f4c274afba5f088d9a59f34c6e99e358244bee4b3df56332f197effdf07?apiKey=aae84e05eaa8498a897092b900502b13&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/df9b7f4c274afba5f088d9a59f34c6e99e358244bee4b3df56332f197effdf07?apiKey=aae84e05eaa8498a897092b900502b13&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/df9b7f4c274afba5f088d9a59f34c6e99e358244bee4b3df56332f197effdf07?apiKey=aae84e05eaa8498a897092b900502b13&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/df9b7f4c274afba5f088d9a59f34c6e99e358244bee4b3df56332f197effdf07?apiKey=aae84e05eaa8498a897092b900502b13&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/df9b7f4c274afba5f088d9a59f34c6e99e358244bee4b3df56332f197effdf07?apiKey=aae84e05eaa8498a897092b900502b13&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/df9b7f4c274afba5f088d9a59f34c6e99e358244bee4b3df56332f197effdf07?apiKey=aae84e05eaa8498a897092b900502b13&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/df9b7f4c274afba5f088d9a59f34c6e99e358244bee4b3df56332f197effdf07?apiKey=aae84e05eaa8498a897092b900502b13&"
+                                class="mt-2 aspect-square w-[55px]" alt="" />
+                        </div>
+                    </div>
+                    <!-- ----------BOX2---------- -->
+                    <div class="col-md-4 flex flex-col  max-md:ml-0 ">
+                        <div
+                            class="flex flex-col grow p-8 justify-center items-center py-2 w-full text-center  bg-white rounded-xl shadow-2xl max-md:mt-8 liti-ex">
+                            <div class="text-base font-bold leading-6 text-amber-300 whitespace-nowrap">TIMELY DELIVERY
+                            </div>
+                            <p
+                                class="self-stretch mt-2 text-neutral-500 text-sm font-medium leading-6 fs-6 text-justify">
+                                We deliver product’s shipment within committed time. size,
+                                packing and grading as per our customers requirement.
+                            </p>
+                            <img loading="lazy"
+                                srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/3dcabe16b4dd34e5d4d59e68d9c7390d960663793e91dcca891c07f31244c845?apiKey=aae84e05eaa8498a897092b900502b13&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dcabe16b4dd34e5d4d59e68d9c7390d960663793e91dcca891c07f31244c845?apiKey=aae84e05eaa8498a897092b900502b13&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dcabe16b4dd34e5d4d59e68d9c7390d960663793e91dcca891c07f31244c845?apiKey=aae84e05eaa8498a897092b900502b13&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dcabe16b4dd34e5d4d59e68d9c7390d960663793e91dcca891c07f31244c845?apiKey=aae84e05eaa8498a897092b900502b13&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dcabe16b4dd34e5d4d59e68d9c7390d960663793e91dcca891c07f31244c845?apiKey=aae84e05eaa8498a897092b900502b13&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dcabe16b4dd34e5d4d59e68d9c7390d960663793e91dcca891c07f31244c845?apiKey=aae84e05eaa8498a897092b900502b13&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dcabe16b4dd34e5d4d59e68d9c7390d960663793e91dcca891c07f31244c845?apiKey=aae84e05eaa8498a897092b900502b13&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/3dcabe16b4dd34e5d4d59e68d9c7390d960663793e91dcca891c07f31244c845?apiKey=aae84e05eaa8498a897092b900502b13&"
+                                class="mt-2 aspect-square w-[55px]" alt="" />
+                        </div>
+                    </div>
+                    <!-- ----------BOX3---------- -->
+                    <div class="col-md-4 flex flex-col max-md:ml-0 ">
+                        <div
+                            class="flex flex-col grow py-2 p-8 w-full  items-center text-center bg-white rounded-xl shadow-2xl  max-md:mt-8 liti-ex">
+                            <div class="text-base font-bold leading-6 text-amber-300 whitespace-nowrap">
+                                BEST PRICE
+                            </div>
+                            <p
+                                class="self-stretch mt-2 text-neutral-500 text-sm font-medium leading-6 fs-6 text-justify">
+                                We provide you best prices with finest quality.
+                                Just ask for a quote grading as per our customers requirement packing and grading as
+                                per.
+                            </p>
+                            <img loading="lazy"
+                                srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/3eb8972a0a6b0bd09a2a9a8e58cb291d3fec20b438a2149cee1a5aca958c3e94?apiKey=aae84e05eaa8498a897092b900502b13&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/3eb8972a0a6b0bd09a2a9a8e58cb291d3fec20b438a2149cee1a5aca958c3e94?apiKey=aae84e05eaa8498a897092b900502b13&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3eb8972a0a6b0bd09a2a9a8e58cb291d3fec20b438a2149cee1a5aca958c3e94?apiKey=aae84e05eaa8498a897092b900502b13&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/3eb8972a0a6b0bd09a2a9a8e58cb291d3fec20b438a2149cee1a5aca958c3e94?apiKey=aae84e05eaa8498a897092b900502b13&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/3eb8972a0a6b0bd09a2a9a8e58cb291d3fec20b438a2149cee1a5aca958c3e94?apiKey=aae84e05eaa8498a897092b900502b13&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3eb8972a0a6b0bd09a2a9a8e58cb291d3fec20b438a2149cee1a5aca958c3e94?apiKey=aae84e05eaa8498a897092b900502b13&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/3eb8972a0a6b0bd09a2a9a8e58cb291d3fec20b438a2149cee1a5aca958c3e94?apiKey=aae84e05eaa8498a897092b900502b13&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/3eb8972a0a6b0bd09a2a9a8e58cb291d3fec20b438a2149cee1a5aca958c3e94?apiKey=aae84e05eaa8498a897092b900502b13&"
+                                class="mt-2 aspect-square w-[55px]" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------------About Us---------------- -->
+
+    <section class="text-gray-600 body-font background-color p-2">
+        <div class="flex flex-col mt-12">
+            <h2 class="mb-3 text-5xl font-bold text-center g-co1 max-md:mt-10 max-md:text-3xl"> ABOUT US</h2>
+            <div class="h-1 w-20 g-co-ex rounded m-auto"></div>
+        </div>
+        <div class="container-fluid mx-auto flex pt-12   md:flex-row flex-col justify-evenly justify-contain-between">
+            <div class="col-md-6 md:p-2 lg:max-w-lg lg:w-full md:w-1/2  md:mb-0 mx-auto">
+                <img class="object-cover object-cover w-full h-75" alt="hero" src="image/vegetables.webp">
+            </div>
+            <div class="col-md-6 xl:p-4 md:p-2">
+                <div class="lg:flex-grow  flex flex-col md:items-start md:text-left justify-content-center">
+                    <h3 class="title-font mb-2 font-medium  text-red">Our Farm Benefits</h3>
+                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"> Why Choose Agrios Market
+                    </h1>
+                    <p class=" font-medium leading-8 text-base text-neutral-500">There are many variations of
+                        passages of available but the majortity
+                        have sufferred alteration in some form by injected humor or random word which don't look even.
+                    </p>
+                </div>
+                <div class="flex gap-5 justify-between mt-4 max-md:flex-wrap">
+                    <i class="fa-solid fa-circle-check fs-2 icon-green"></i>
+                    <div class="flex flex-col grow shrink-0 basis-0 w-fit">
+                        <h2 class="text-2xl font-extrabold leading-8 text-stone-900">
+                            Quality Products
+                        </h2>
+                        <p class="mt-2 text-base font-medium leading-8 text-neutral-500">
+                            There are variation You need to be sure there is
+                            anything hidden in the middle of text.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex gap-5 justify-between mt-3 max-md:flex-wrap">
+                    <i class="fa-solid fa-circle-check fs-2 icon-yellow"></i>
+                    <div class="flex flex-col grow shrink-0 basis-0 w-fit">
+                        <h2 class="text-2xl font-extrabold leading-8 text-stone-900">
+                            Quality Products
+                        </h2>
+                        <p class="mt-2 text-base font-medium leading-8 text-neutral-500">
+                            There are variation You need to be sure there is
+                            anything hidden in the middle of text.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex gap-5 justify-between mt-3 max-md:flex-wrap">
+                    <i class="fa-solid fa-circle-check fs-2 icon-orange"></i>
+                    <div class="flex flex-col grow shrink-0 basis-0 w-fit">
+                        <h2 class="text-2xl font-extrabold leading-8 text-stone-900">
+                            Quality Products
+                        </h2>
+                        <p class="mt-2 text-base font-medium leading-8 text-neutral-500">
+                            There are variation You need to be sure there is
+                            anything hidden in the middle of text.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------products--------------------- -->
+
+    <!-- -------------------products--------------------- -->
+
+    <section class="text-gray-600 body-font">
+        <div class="flex flex-col my-12">
+            <h2 class="mb-3 text-5xl font-bold g-co1 text-center max-md:mt-10 max-md:text-4xl"> Products </h2>
+            <div class="h-1 w-20 g-co-ex rounded m-auto"></div>
+        </div>
+        <div class="container-fluid md:px-5 py-6 ">
+            <div class="flex row flex-wrap sm:-m-4 slider md:p-6">
+                <div class="p-4 md:w-1/4 sm:mb-0 mb-6 ">
+                    <div class="bg-light p-2 rounded-lg text-center d-shedo">
+                        <div class="rounded-lg h-64 overflow-hidden three">
+                            <img alt="content" class="object-cover object-center h-full w-full" src="image/banana.webp">
+                        </div>
+                        <h2 class="text-xl fs-3 font-medium title-font g-co1 mt-3 mb-2">Banana</h2>
+                        <div class="h-1 w-20 g-co-ex rounded m-auto"></div>
+                        <p
+                            class="text-base leading-relaxed mt-3 align-items-center text-justify text-neutral-500 font-medium">
+                            Bananas
+                            are a healthy source of fiber,
+                            potassium, vitamin B6, vitamin C, and various antioxidants and phytonutrients. Many
+                            types and sizes exist. Their color usually ranges from green to yellow. This article tells
+                            you everything you need to know about bananas.</p>
+                        <a href="./Products/products.html"
+                            class="text-white bg-success text-bold g-co p-2 rounded inline-flex align-items-center mt-3">View
+                            More
+                            <i class="fa-solid fa-arrow-right fs-6 ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/4 sm:mb-0 mb-6 ">
+                    <div class="bg-light p-2 rounded-lg text-center d-shedo">
+                        <div class="rounded-lg h-64 overflow-hidden three">
+                            <img alt="content" class="object-cover object-center h-full w-full" src="image/apple.webp">
+                        </div>
+                        <h2 class="text-xl fs-3 font-medium title-font g-co1 mt-3 mb-2">Apple</h2>
+                        <div class="h-1 w-20 g-co-ex rounded m-auto"></div>
+                        <p class="text-base leading-relaxed mt-3 text-neutral-500 text-justify font-medium">Apple is an
+                            American
+                            corporation that develops and sells
+                            computer electronics, software, personal computers and portable devices internationally.
+                            Founders Steve Jobs, Steve Wozniak and Ronald Wayne established Apple in 1976, with its
+                            incorporation in 1977.</p>
+                        <a href="./Products/products.html"
+                            class="text-white bg-success text-bold g-co p-2 rounded inline-flex align-items-center mt-3">View
+                            More
+                            <i class="fa-solid fa-arrow-right fs-6 ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/4 sm:mb-0 mb-6 ">
+                    <div class="bg-light p-2 rounded-lg text-center d-shedo">
+                        <div class="rounded-lg h-64 overflow-hidden three">
+                            <img alt="content" class="object-cover object-center h-full w-full" src="image/grapes.webp">
+                        </div>
+                        <h2 class="text-xl fs-3 font-medium title-font g-co1 mt-3 mb-2">Grapes</h2>
+                        <div class="h-1 w-20 g-co-ex rounded m-auto"></div>
+                        <p class="text-base leading-relaxed mt-3 text-neutral-500 text-justify font-medium">A
+                            grape is a fruit, botanically a
+                            berry, of the deciduous woody vines of the flowering plant genus Vitis. Grapes are a
+                            non-climacteric type of fruit, in clusters. The cultivation of grapes began perhaps
+                            8,000 years ago, and the fruit has been used as human food over history.</p>
+                        <a href="./Products/products.html"
+                            class="text-white bg-success text-bold g-co p-2 rounded inline-flex align-items-center mt-3">View
+                            More
+                            <i class="fa-solid fa-arrow-right fs-6 ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="p-4 md:w-1/4 sm:mb-0 mb-6 ">
+                    <div class="bg-light p-2 rounded-lg text-center d-shedo">
+                        <div class="rounded-lg h-64 overflow-hidden three">
+                            <img alt="content" class="object-cover object-center h-full w-full" src="image/Apple.webp">
+                        </div>
+                        <h2 class="text-xl fs-3 font-medium title-font g-co1 mt-3 mb-2">Apple</h2>
+                        <div class="h-1 w-20 g-co-ex rounded m-auto"></div>
+                        <p class="text-base leading-relaxed mt-3 text-neutral-500 text-justify font-medium">Apple is an
+                            American
+                            corporation that develops and sells
+                            computer electronics, software, personal computers and portable devices internationally.
+                            Founders Steve Jobs, Steve Wozniak and Ronald Wayne established Apple in 1976, with its
+                            incorporation in 1977.</p>
+                        <a href="./Products/products.html"
+                            class="text-white bg-success text-bold g-co p-2 rounded inline-flex align-items-center mt-3">View
+                            More
+                            <i class="fa-solid fa-arrow-right fs-6 ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="p-4 md:w-1/4 sm:mb-0 mb-6 ">
+                    <div class="bg-light p-2 rounded-lg text-center d-shedo">
+                        <div class="rounded-lg h-64 overflow-hidden three">
+                            <img alt="content" class="object-cover object-center h-full w-full" src="image/Banana.webp">
+                        </div>
+                        <h2 class="text-xl fs-3 font-medium title-font g-co1 mt-3 mb-2">Banana</h2>
+                        <div class="h-1 w-20 g-co-ex rounded m-auto"></div>
+                        <p class="text-base leading-relaxed mt-3 text-neutral-500 text-justify font-medium">Bananas are
+                            a healthy
+                            source
+                            of fiber, potassium, vitamin
+                            B6, vitamin C, and various antioxidants and phytonutrients. Many types and sizes exist.
+                            Their
+                            color usually ranges from green to yellow. This article tells
+                            you
+                            everything you need to know about bananas.</p>
+                        <a href="./Products/products.html"
+                            class="text-white bg-success text-bold g-co p-2 rounded inline-flex align-items-center mt-3">View
+                            More
+                            <i class="fa-solid fa-arrow-right fs-6 ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+                    <div class="bg-light p-2 rounded-lg text-center d-shedo">
+                        <div class="rounded-lg h-64 overflow-hidden three">
+                            <img alt="content" class="object-cover object-center h-full w-full" src="image/grapes.webp">
+                        </div>
+                        <h2 class="text-xl fs-3 font-medium title-font g-co1 mt-3 mb-2">Grapes</h2>
+                        <div class="h-1 w-20 g-co-ex rounded m-auto"></div>
+                        <p class="text-base leading-relaxed mt-3 text-neutral-500 text-justify font-medium">A grape is a
+                            fruit,
+                            botanically a berry, of the deciduous
+                            woody vines of the flowering plant genus Vitis. Grapes are a non-climacteric type of fruit,
+                            in clusters. The cultivation of grapes began perhaps 8,000 years ago, and
+                            the fruit has been used as human food over history.</p>
+                        <a href="./Products/products.html"
+                            class="text-white bg-success text-bold g-co p-2 rounded inline-flex align-items-center mt-3">View
+                            More
+                            <i class="fa-solid fa-arrow-right fs-6 ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------END Products----------------------->
+
+
+    <!-----------Video Gallery------------->
+
+    <section>
+        <div class="flex flex-col my-12">
+            <h2 class="mb-3 text-5xl font-bold text-center g-co1 max-md:text-3xl"> Video </h2>
+            <div class="h-1 w-20 g-co-ex rounded m-auto"></div>
+        </div>
+        <div class="container-fluid">
+            <div class="flex overflow-hidden relative flex-col justify-center items-start">
+                <video controls autoplay loop class="xl:w-75 xl:p-12 mx-auto">
+                    <source src="video/pexels-rodnae-productions-7782528 (1080p).mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="mx-auto text-center py-6">
+                <a href="./Gallary/video.html"><button type="button" class="btn font-bold bg-success btn-success"
+                        data-bs-target="#exampleModal" data-bs-toggle="modal">View More</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="flex flex-col my-12">
+            <h2 class="mb-3 text-5xl font-bold text-center g-co1 max-md:text-3xl"> PHOTO GALLERY </h2>
+            <div class="h-1 w-20 g-co-ex rounded m-auto"></div>
+        </div>
+        <div class="container-fluid md:px-5">
+            <div class="flex row flex-wrap sm:-m-4 hrh overflow-hidden xl:p-12 mx-auto">
+                <div class="p-4 md:w-1/4 sm:mb-0 ">
+                    <div class="rounded-lg text-center">
+                        <div class="rounded-lg overflow-hidden ">
+                            <img alt="content" class="object-cover object-center h-full " src="image/image5.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/4 sm:mb-0 ">
+                    <div class="rounded-lg text-center">
+                        <div class="rounded-lg  overflow-hidden">
+                            <img alt="content" class="object-cover object-center h-full  " src="image/image6.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/4 sm:mb-0 ">
+                    <div class="rounded-lg text-center">
+                        <div class="rounded-lg overflow-hidden">
+                            <img alt="content" class="object-cover object-center h-full " src="image/image7.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-4 md:w-1/4 sm:mb-0 ">
+                    <div class="rounded-lg text-center">
+                        <div class="rounded-lg  overflow-hidden">
+                            <img alt="content" class="object-cover object-center h-full " src="image/image8.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-4 md:w-1/4 sm:mb-0 ">
+                    <div class="rounded-lg text-center">
+                        <div class="rounded-lg overflow-hidden">
+                            <img alt="content" class="object-cover object-center h-full "
+                                src="image/collection-delicious-fruits-table.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-4 md:w-1/4 sm:mb-0 ">
+                    <div class="rounded-lg text-center">
+                        <div class="rounded-lg overflow-hidden ">
+                            <img alt="content" class="object-cover object-center h-full  "
+                                src="image/flat-lay-fresh-vegetables-composition.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/4 sm:mb-0 ">
+                    <div class="rounded-lg text-center">
+                        <div class="rounded-lg  overflow-hidden ">
+                            <img alt="content" class="object-cover object-center h-full  "
+                                src="image/top-view-vegetables-as-garlic-pepper-zucchini-tomato-cucumber-black-surface.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+                    <div class="rounded-lg text-center">
+                        <div class="rounded-lg  overflow-hidden ">
+                            <img alt="content" class="object-cover object-center h-full  "
+                                src="image/wooden-plank-citruses-grape.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------------Testimonial-------------------->
+
+    <section class="b-g">
+        <div class="flex flex-col my-12">
+            <h2 class="mb-3 text-5xl font-bold text-center g-co1 max-md:mt-10 max-md:text-3xl text-white">Testimonial
+            </h2>
+            <div class="h-1 w-20 g-co-ex rounded m-auto"></div>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide  text-center carousel-dark" data-mdb-ride="carousel">
+            <div class="carousel-inner hrh1">
+                <div class="carousel-item active p-4">
+                    <div class="row d-flex justify-content-center ">
+                        <div class="col-lg-5 col-md-5">
+                            <div
+                                class="shadow p-3 mb-5 bg-light-300 liti rounded text-light text-neutral-500 font-medium">
+                                <img class="rounded-circle shadow-1-strong mx-auto"
+                                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar"
+                                    style="width: 110px;" />
+                                <h5 class="fs-1 mt-2">Maria Kate</h5>
+                                <p class="my-2">Photographer</p>
+                                <p class="text p-2 mb-0 t-justy">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                                    nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
+                                    fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
+                                    doloremque.
+                                </p>
+
+                                <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="far fa-star fa-sm"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active p-4">
+                    <div class="row d-flex justify-content-center ">
+                        <div class="col-lg-5 col-md-5">
+                            <div
+                                class="shadow p-3 mb-5 bg-light-300 liti rounded text-light text-neutral-500 font-medium">
+                                <img class="rounded-circle shadow-1-strong mx-auto"
+                                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
+                                    style="width: 110px;" />
+                                <h5 class="fs-1 mt-2">Maria Kate</h5>
+                                <p class="my-2">Photographer</p>
+                                <p class="text p-2 mb-0 t-justy">
+                                    <!-- <i class="fas fa-quote-left pe-2"></i> -->
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                                    nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
+                                    fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
+                                    doloremque.
+                                </p>
+
+                                <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="far fa-star fa-sm"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active p-4">
+                    <div class="row d-flex justify-content-center ">
+                        <div class="col-lg-5 col-md-5">
+                            <div
+                                class="shadow p-3 mb-5 bg-light-300 liti rounded text-light text-neutral-500 font-medium">
+                                <img class="rounded-circle shadow-1-strong mx-auto"
+                                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar"
+                                    style="width: 110px;" />
+                                <h5 class="fs-1 mt-2">Maria Kate</h5>
+                                <p class="my-2">Photographer</p>
+                                <p class="text p-2 mb-0 t-justy">
+                                    <!-- <i class="fas fa-quote-left pe-2"></i> -->
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                                    nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
+                                    fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
+                                    doloremque.
+                                </p>
+
+                                <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="fas fa-star fa-sm"></i></li>
+                                    <li><i class="far fa-star fa-sm"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------END Testimonial-------------------->
+
+
+    <!-- -------------------Partners------------------- -->
+
+    <section class=" body-font">
+        <div class="container-fluid px-5 mt-12  mx-auto">
+            <div class="flex flex-wrap w-full my-6 justify-content-center">
+                <div class="lg:w-1/2 w-full lg:mb-0">
+                    <h1 class="sm:text-5xl text-4xl font-bold title-font mb-2 text-center g-co1">Partners
+                    </h1>
+                    <div class="h-1 w-20 g-co mb-4 rounded m-auto"></div>
+                </div>
+            </div>
+            <div class="flex flex-wrap  ">
+                <div class="p-4 col-md-3 mx-auto ">
+                    <div class="flex bac">
+                        <img alt="gallery" class="w-75 mx-auto object-cover object-center"
+                            src="image/partners/1-removebg-preview.png">
+                    </div>
+                </div>
+                <div class="p-4 col-md-3 mx-auto ">
+                    <div class="flex bac">
+                        <img alt="gallery" class=" w-75 mx-auto object-cover object-center"
+                            src="image/partners/2-removebg-preview.png">
+                    </div>
+                </div>
+                <div class="p-4 col-md-3 mx-auto ">
+                    <div class="flex bac">
+                        <img alt="gallery" class=" w-75 mx-auto object-cover object-center"
+                            src="image/partners/3-removebg-preview.png">
+                    </div>
+                </div>
+                <div class="p-4 col-md-3 mx-auto ">
+                    <div class="flex bac">
+                        <img alt="gallery" class=" w-75 mx-auto object-cover object-center"
+                            src="image/partners/11-removebg-preview.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------END Partners------------------- -->
+
+
+    <!-- -------------------Footer-------------------- -->
+
+    <footer class="bg-black text-inverse py-6 mt-8">
+        <div class="container-fluid  py-md-15">
+            <div class="row gy-6 gy-lg-0 align-items-center text-white items-center justify-evenly">
+                <div class="col-md-4 col-lg-3">
+                    <div class="align-items-center justify-center mx-auto flex flex-col">
+                        <img class="liti-1" src="../image/logo.webp" alt="" />
+                        <p class="mb-4">©
+                            Sandbox.
+                            All rights reserved.
+                        </p>
+                        <nav class="nav justify-start  gap-3">
+                            <a href="#"><i
+                                    class="fa-brands fa-twitter bg-dark-subtle twi-color p-2 rounded-circle"></i></a>
+                            <a href="#"><i
+                                    class="fa-brands fa-facebook-f bg-dark-subtle face-color p-2 rounded-circle"></i></a>
+                            <a href="#"><i
+                                    class="fa-brands fa-dribbble bg-dark-subtle dribble-color p-2 rounded-circle"></i></a>
+                            <a href="#"><i
+                                    class="fa-brands fa-instagram bg-dark-subtle insta-color p-2 rounded-circle"></i></a>
+                            <a href="#"><i
+                                    class="fa-brands fa-youtube bg-dark-subtle Youtube-color p-2 rounded-circle"></i></a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 py-6">
+                    <div class="align-items-center justify-center mx-auto flex flex-col">
+                        <h4 class="widget-title text-white mb-3 fs-2">Explore</h4>
+                        <ul class="list-unstyled leading-8  text-center">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Story</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <div class="align-items-center justify-center mx-auto flex flex-col leading-8">
+                        <h4 class="widget-title text-white mb-3 fs-2">Get in Touch</h4>
+                        <address class="pe-xl-15  pe-xxl-17 text-center">Moonshine St. 14/05 Light City,
+                            London,
+                            United Kingdom
+                        </address>
+                        <a href="mailto:#">info@email.com</a> 00 (123) 456 78 90
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- -------------------END Footer-------------------- -->
+
+
+
+    <!-- ------------START Sticky Icon-------------- -->
+
+    <a href="https://wa.me/91123-456-7878" class="back-to-top row align-items-center justify-content-center"
+        id="Aenker"><i class="fa-solid fa-mobile"></i></a>
+    <a href="tel:+91 123-456-7878" class="back-to-top_1 row align-items-center justify-content-center" id="Aenker1"><i
+            class="fa-brands fa-whatsapp"></i></a>
+    <a href="#" class="back-to-top_2 row align-items-center justify-content-center" id="Aenker2"><i
+            class="fa-solid fa-arrow-up"></i></a>
+
+    <!-- ------------END Sticky Icon-------------- -->
+
+
+
+
+
+
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
